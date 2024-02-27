@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-text-color: #f2f2f2;
+  --btn-color: #adff2f;
+  --btn-text-color: #b1b1b1;
+  --header-text-color: #1a1a1a;
+  --main-text-color: #404040;
+  --lable-text-color: #f0467d;
+  --logo_font_size: 32px;
+  --link_font_size: 12px;
+  --header_font_size: 48px;
+  --title_font_size: 36px;
+  --body_font_size: 21px;
+  --btn_font_size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  height: 100%;
+  background-color: var(--background-text-color);
+}
+
+.page__body {
+  height: 100%;
+  margin: 0;
+
+  font-family: 'Roobert', Helvetica, 'Roboto', Arial, sans-serif;
+  font-weight: 100;
+  line-height: 1.2;
+  color: var(--main-text-color);
+}
+
+.btn {
+  color: var(--btn-text-color);
+  font-family: inherit;
+  font-size: var(--btn_font_size);
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background-color: var(--btn-color);
+  cursor: pointer;
+}
+
+/* HEADER */
+
+.page__header {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.page-header__logo {
+  color: var(--header-text-color);
+  font-size: var(--logo_font_size);
+  line-height: 0.8;
+  word-spacing: 9999999px;
+}
+
+.main_menu__link {
+  color: var(--main-text-color);
+  font-size: var(--link_font_size);
+}
+
+/* HERO */
+
+.hero__title {
+  color: var(--header-text-color);
+  font-size: var(--header_font_size);
+  font-weight: 800;
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+
+.hero__text {
+  font-size: var(--body_font_size);
+  font-weight: 100;
+}
+
+/* ARTICLE */
+.article {
+  text-align: left;
+}
+
+.article__img {
+  position: relative;
+}
+
+.article__lable {
+  color: var(--lable-text-color);
+  font-size: var(--link_font_size);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.article__title {
+  color: var(--header-text-color);
+  font-size: var(--title_font_size);
+}
+
+.article__description {
+  font-size: var(--body_font_size);
+}
+
+.article__date {
+  font-size: var(--link_font_size);
+}
+
+/* CONTACT */
+
+.contact__title {
+}
+
+.contact__description {
+}
+
+.contact__email {
+  color: var(--main-text-color);
+}
+
+/* FOOTER */
+
+.footer-social_networks__link {
+  color: var(--main-text-color);
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: var(--link_font_size);
+}
+
+.page__footer-rights {
+}

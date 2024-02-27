@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Roobert', sans-serif;
+  src: url('../fonts/roobert/RoobertLight.ttf');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../fonts/roboto/Roboto-Light.ttf');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
