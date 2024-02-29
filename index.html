@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="page">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,72 +9,122 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="page__body">
+  <body>
     <script src="js/main.js"></script>
 
-    <header class="page__header page-header">
-      <a href="#" class="page-header__logo"> Elena Fostach </a>
-      <nav class="page-header__nav">
-        <ul class="page-header__menu main_menu">
-          <li class="main_menu__item">
-            <a class="main_menu__link" href="#"> Blog </a>
-          </li>
-        </ul>
-        <button class="page-header__btn btn" type="button">Newsletter</button>
-      </nav>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img
+              src="images/logo.png"
+              alt="Elena Fostach"
+              width="150"
+              height="60"
+            />
+            <p class="logo__text">Elena F<i>o</i>stach</p>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Blog</a>
+              </li>
+              <li class="menu__item">
+                <button class="btn menu__btn" type="button">Newsletter</button>
+              </li>
+            </ul>
+          </nav>
+          <!-- <ul class="user__actions">
+            <li class="user-actions__item">
+              <button class="btn" type="button">Download CV</button>
+            </li>
+            <li class="user-actions__item">
+              <button class="btn" type="button">Newsletter</button>
+            </li>
+          <ul> -->
+        </div>
+      </div>
     </header>
 
-    <main class="page_content">
-      <section class="hero">
-        <h1 class="section-title hero__title">Artificial Intelligence</h1>
-        <h1 class="section-title hero__title">Cyber Security</h1>
-        <h1 class="section-title hero__title">Software Engineering</h1>
-        <p class="hero__text">
-          I'm contributing to a better future for all, by solving one problem at
-          a time.
-        </p>
-        <button class="hero__btn btn" type="button">Download CV</button>
+    <main class="main">
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <h1 class="top__title">Artificial Intelligence</h1>
+            <h1 class="top__title">Cyber Security</h1>
+            <h1 class="top__title">Software Engineering</h1>
+            <p class="top__text">
+              As it turned up I am just a complicated plant apparently. I would
+              like something to reflect my personality.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section class="article">
-        <img class="article__img" src="" alt="" width="450" height="675" />
-        <h3 class="section-title article__lable section-title__small">New</h3>
-        <h2 class="section-title section-title__small article__title">Title</h2>
-        <p class="article__description">Description</p>
-        <p class="article__date">02 FEB 2024</p>
-        <button class="article__btn btn" type="button">
-          Discover All Posts →
-        </button>
+        <div class="container">
+          <div class="article_inner">
+            <img class="article__img" src="" alt="" width="450" height="500" />
+            <div class="article__post">
+              <h3 class="section-title article__lable section-title__small">
+                New
+              </h3>
+              <h2 class="section-title section-title__small article__title">
+                The Spit of Him
+              </h2>
+              <p class="article__description">
+                Kevin didn’t have a rain jacket and for that reason he wasn’t
+                wearing one. A pair of “Bananas in Pyjamas” pajama bottoms
+                bunched over the shafts of his rain boots. From his left
+                shoulder, a flat laptop bag dangled. It had been consigned to
+                his school’s lost-property box and had remained there more than
+                four months before he’d claimed it for himself. Now it flapped
+                rhythmically against his hip.
+              </p>
+              <p class="article__date">02 Feb 2024</p>
+              <button class="article__btn btn" type="button">
+                Discover All Posts →
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="contact">
-        <h2 class="section-title section-title__small contact__title">
-          I would love to here from you
-        </h2>
-        <p class="contact__description">
-          Feel free to reach me out if you want to work with me, or simply have
-          a chat.
-        </p>
-        <a class="contact__email" href="#"> elena.fostach@gmail.com → </a>
+        <div class="container contact__container">
+          <h2 class="section-title section-title__small contact__title">
+            I w<i>o</i>uld l<i>o</i>ve t<i>o</i> here fr<i>o</i>m y<i>o</i>u
+          </h2>
+          <p class="contact__description">Feel free to reach me out</p>
+          <p class="contact__description">
+            if you want to work with me, or simply have a chat.
+          </p>
+          <a class="contact__email" href="#"> elena.fostach@gmail.com </a>
+        </div>
       </section>
     </main>
 
     <footer class="page__footer page-foter">
-      <nav class="page__footer-nav">
-        <ul class="footer-social_networks">
-          <li class="footer-social_networks__item">
-            <a class="footer-social_networks__link" href="#"> Telegramm </a>
-          </li>
-          <li class="footer-social_networks__item">
-            <a class="footer-social_networks__link" href="#"> LinkedIn </a>
-          </li>
-          <li class="footer-social_networks__item">
-            <a class="footer-social_networks__link" href="#"> YouTube </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container page-footer__container">
+        <nav class="page__footer-nav">
+          <ul class="footer-social_networks">
+            <li class="footer-social_networks__item">
+              <a class="footer-social_networks__link" href="#"> Telegramm </a>
+            </li>
+            <li class="footer-social_networks__item">
+              <a class="footer-social_networks__link" href="#"> LinkedIn </a>
+            </li>
+            <li class="footer-social_networks__item">
+              <a class="footer-social_networks__link" href="#"> YouTube </a>
+            </li>
+          </ul>
+        </nav>
 
-      <p class="page__footer-rights">All rights reserved © 2024</p>
+        <p class="page__footer-rights">All rights reserved © 2024</p>
+      </div>
     </footer>
   </body>
 </html>
